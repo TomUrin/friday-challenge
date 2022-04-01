@@ -1,0 +1,25 @@
+nav > p {
+    position: absolute;
+    width: 81px;
+    height: 18px;
+    left: 81px;
+    
+}
+p.hom {
+    width: 62px;
+    left: 87px;
+    top: 161px;
+}
+
+p.cal {
+    top: 236px;
+}
+
+p.f {
+    top: 295px;
+}
+
+p.gam {
+    left: 89px;
+    top: 354px;
+}

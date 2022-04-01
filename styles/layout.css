@@ -1,0 +1,122 @@
+nav {
+    position: absolute;
+    width: 100px;
+    height: 906px;
+    left: 0px;
+    top: calc(50% - 906px/2);
+    background: #F7F6FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C4C4C4;
+}
+
+nav > img {
+    position:absolute;
+    width: 25px;
+    height: 25px;
+}
+
+nav:hover {
+    width: 206px;
+    height: 906px;
+    left: 0px;
+    top: 0px;
+    background: #F7F6FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+nav > .logo {
+    width: 68px;
+    height: 34px;
+    left: 16px;
+    top: calc(50% - 34px/2 - 384px);
+}
+
+nav:hover > .logo {
+    width: 68px;
+    height: 34px;
+    left: 69px;
+    top: 44px;
+}
+nav > .line {
+    width: 62.24px;
+    height: 0px;
+    left: 18px;
+    top: 110.03px;
+    border: 2px solid #C4C4C4;
+}
+
+nav:hover > .line {
+    width: 128.22px;
+    height: 0px;
+    left: 39px;
+    top: 110.03px;
+    border: 2px solid #C4C4C4;
+}
+
+nav > .home {
+    left: 37px;
+    top: 158px;
+    color:#02577A; 
+}
+
+nav:hover > .home {
+    left: 37px;
+    top: 158px;
+    color:#02577A;
+}
+
+nav > .icon {
+    width: 89px;
+    height: 57px;
+    left: 11px;
+    top: calc(50% - 57px/2 - 282.5px);
+    background: #FFFFFF;
+    border-radius: 25px 0px 0px 25px;
+}
+
+nav:hover > .icon {
+    width: 195px;
+    height: 57px;
+    left: 11px;
+    top: 142px;
+    background: #FFFFFF;
+    border-radius: 25px 0px 0px 25px;
+}
+
+nav > .calendar {
+    top: 233px;
+    left: 37px;
+}
+
+nav > .fe {
+    top: 292px;
+    left: 37px;
+}
+
+nav > .games {
+    width: 40px;
+    top: 351px;
+    left: 30px;
+}
+
+.container > .text {
+    position: absolute;
+    width: 184px;
+    height: 24px;
+    left: 626px;
+    top: 882px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #02577A;
+}
+
+.container > .bottomline {
+    position: absolute;
+    width: 346px;
+    left: 527px;
+    top: 871px;
+    border: 1px solid #02577A;
+}
