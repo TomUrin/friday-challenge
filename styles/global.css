@@ -1,15 +1,22 @@
-body,
-body * {
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    box-sizing: border-box;
-    font-family: 'Montserrat';
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
 
-.container {
-    width: 1440px;
-    height: 906px;
-    display: inline-block;
+body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
+
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
 

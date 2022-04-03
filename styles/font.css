@@ -1,25 +1,25 @@
-nav > p {
+nav > a {
     position: absolute;
     width: 81px;
     height: 18px;
     left: 81px;
-    
+    color: #02577A;
 }
-p.hom {
+a.hom {
     width: 62px;
     left: 87px;
     top: 161px;
 }
 
-p.cal {
+a.cal {
     top: 236px;
 }
 
-p.f {
+a.f {
     top: 295px;
 }
 
-p.gam {
+a.gam {
     left: 89px;
     top: 354px;
 }
