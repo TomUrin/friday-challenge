@@ -1,5 +1,5 @@
 nav {
-    position:fixed;
+    position:absolute;
     background: #F7F6FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     max-width: 200px;
@@ -9,62 +9,130 @@ nav {
     font-size: 16px;
     line-height: 20px;
     color: #C4C4C4;
-    transition: all ,.3s ease-in-out, .3s ease-in-out;
+    overflow-x: hidden;
+    transition: all;
+    
 }
 
 nav:hover {
     width: 200px;
+    transition: all;
+
 }
 
 nav > .first {
     display: inline-block;
     position: absolute;
-    top: 142px;
+    top: 158px;
     left: 37px;
-    top: 142px;
+    width: 200px;
     color:#02577A; 
-    height: 57px;
+    height: 25px;
 }
 
-.home {
-    position:relative;
-    margin-top: 40px;
+.first:hover {
+    top: 142px;
+    padding: 16px 0px 16px 32px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: -32px;
 }
 
-.first > .hom {
-    margin-top: 600px;
-    margin-left: 80px;
-    color: #02577A;
-}
-
-.second {
-    position: absolute;
-    top: 233px;
-    left: 37px;
-}
-
-.second > .cal {
-    margin-top: 500px;
-    margin-left: 75px;
-    color: #02577A;
-}
-
-.third {
-    position: absolute;
-    top: 292px;
-    left: 37px;
-}
-
-.fourth {
-    position: absolute;
-    width: 40px;
-    top: 351px;
-    left: 30px;
-}
 
 a {
     text-decoration: none;
+    color: #02577A;
 }
+
+.home {
+    position: relative;
+    
+
+}
+.hom {
+    margin-left: 35px;
+    vertical-align: 4.5px;
+}
+
+nav > .second {
+    display: inline-block;
+    position: absolute;
+    top: 213px;
+    left: 37px;
+    width: 200px;
+    height: 25px;
+}
+
+.second:hover {
+    top: 197px;
+    padding: 16px 0px 16px 32px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: -32px;
+}
+
+.calendar {
+    position: relative;
+}
+
+.cal {
+    margin-left: 35px;
+    vertical-align: 4.5px;
+}
+
+nav > .third {
+    display: inline-block;
+    position: absolute;
+    top: 270px;
+    left: 37px;
+    width: 200px;
+    height: 25px;
+}
+
+.third:hover {
+    top: 254px;
+    padding: 16px 0px 16px 32px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: -32px;
+}
+
+.fe {
+    position: relative;
+}
+
+.f {
+    margin-left: 35px;
+    vertical-align: 4.5px;
+}
+
+nav > .fourth {
+    display: inline-block;
+    position: absolute;
+    top: 327px;
+    left: 30px;
+    width: 200px;
+    height: 25px;
+}
+
+.fourth:hover {
+    top: 311px;
+    padding: 16px 0px 16px 32px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: -32px;
+}
+
+.games {
+    position: relative;
+}
+
+.gam {
+    margin-left: 30px;
+    vertical-align: 4.5px;
+}
+
+    
 nav:hover {
     width: 200px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -93,7 +161,7 @@ nav > .line {
     width: 62.24px;
     height: 0px;
     left: 18px;
-    top: 110.03px;
+    top: 110px;
     border: 2px solid #C4C4C4;
 }
 
@@ -101,25 +169,8 @@ nav:hover > .line {
     width: 128.22px;
     height: 0px;
     left: 39px;
-    top: 110.03px;
+    top: 110px;
     border: 2px solid #C4C4C4;
-}
-
-nav > .icon {
-    width: 89px;
-    height: 57px;
-    left: 11px;
-    top: 142px;
-    background: #FFFFFF;
-    border-radius: 25px 0px 0px 25px;
-}
-nav:hover > .icon {
-    width: 188px;
-    height: 57px;
-    left: 11px;
-    top: 142px;
-    background: #FFFFFF;
-    border-radius: 25px 0px 0px 25px;
 }
 
 nav:hover > .home {
