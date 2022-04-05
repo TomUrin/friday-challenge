@@ -1,23 +1,58 @@
 nav {
-    position:absolute;
+    position: fixed;
     background: #F7F6FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    max-width: 200px;
-    min-width: 100px;
+    width: 100px;
     height: 100%;
-    font-weight: 500px;
-    font-size: 16px;
-    line-height: 20px;
     color: #C4C4C4;
     overflow-x: hidden;
-    transition: all;
-    
+    transition: all 0.5s;
 }
 
 nav:hover {
     width: 200px;
-    transition: all;
+}
 
+img {
+    position: relative;
+}
+
+nav > .logo {
+    position: absolute;
+    width: 68px;
+    height: 34px;
+    left: 16px;
+    top: 52px;
+    transition: all 0.5s;
+}
+
+nav:hover > .logo {
+    width: 69px;
+    height: 34px;
+    left: 69px;
+    top: 44px;
+}
+
+nav > .line {
+    width: 62px;
+    height: 0px;
+    left: 18px;
+    top: 110px;
+    border: 2px solid #C4C4C4;
+    transition: all 0.5s;
+}
+
+nav:hover > .line {
+    width: 128.22px;
+    height: 0px;
+    left: 39px;
+    top: 110px;
+    border: 2px solid #C4C4C4;
+}
+
+nav:hover > .home {
+    left: 37px;
+    top: 158px;
 }
 
 nav > .first {
@@ -38,17 +73,11 @@ nav > .first {
     margin-left: -32px;
 }
 
-
 a {
     text-decoration: none;
     color: #02577A;
 }
 
-.home {
-    position: relative;
-    
-
-}
 .hom {
     margin-left: 35px;
     vertical-align: 4.5px;
@@ -69,10 +98,6 @@ nav > .second {
     background-color: white;
     border-radius: 30px;
     margin-left: -32px;
-}
-
-.calendar {
-    position: relative;
 }
 
 .cal {
@@ -97,10 +122,6 @@ nav > .third {
     margin-left: -32px;
 }
 
-.fe {
-    position: relative;
-}
-
 .f {
     margin-left: 35px;
     vertical-align: 4.5px;
@@ -123,58 +144,26 @@ nav > .fourth {
     margin-left: -32px;
 }
 
-.games {
-    position: relative;
-}
-
 .gam {
     margin-left: 30px;
     vertical-align: 4.5px;
 }
 
-    
 nav:hover {
     width: 200px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: absolute;
 }
 
-img {
+footer {
     position: absolute;
-}
-
-nav > .logo {
-    width: 68px;
-    height: 34px;
-    left: 16px;
-    top: 52px;
-}
-
-nav:hover > .logo {
-    width: 69px;
-    height: 34px;
-    left: 69px;
-    top: 44px;
-}
-
-nav > .line {
-    width: 62.24px;
-    height: 0px;
-    left: 18px;
-    top: 110px;
-    border: 2px solid #C4C4C4;
-}
-
-nav:hover > .line {
-    width: 128.22px;
-    height: 0px;
-    left: 39px;
-    top: 110px;
-    border: 2px solid #C4C4C4;
-}
-
-nav:hover > .home {
-    left: 37px;
-    top: 158px;
-    color:#02577A;
-}
+    bottom: 0px;
+    width: 346px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 11px;
+    border-top: 1px solid var(--secondary-color);
+    padding: 11px 0;
+  }

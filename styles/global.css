@@ -1,3 +1,11 @@
+:root{
+    --main-color: #ebeef5;
+    --secondary-color: #02577a;
+    --grey-color: #c4c4c4;
+    --nav-bg-color: #F7F6FF;
+    --white-color: #fff;
+}
+
 *{
 	padding: 0;
 	margin: 0;
@@ -10,13 +18,13 @@ body{
 	font-size: 100%;
 	line-height: 1;
 	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
 }
 
 body{
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500px;
+    font-size: 16px;
+	line-height: 20px;
+	font-style: normal;
+	color: #02577A;
 }
-
-
