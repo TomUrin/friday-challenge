@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
     <title>Friday Challenge</title>
 </head>
 <body>
@@ -29,10 +30,27 @@
             <a href="#" class="gam">Games</a>
         </div>
     </nav>
-    <main>
+    <main class="container">
+        <div class="row">
+            <div class="clock col-10 col-sm-10 ml-sm-1 col-md-7 col-lg-5 col-xxl-5 reverse">
+                <p class="data"><span class="laikas">10:23</span><br>Pirmadienis, Sausio 3, 2021<p>
+            </div>
+            <div class="col-6 ml-2 col-sm-7 ml-sm-2 col-md-6 ml-md-0 col-lg-4 ml-lg-1 col-xl-3 col-xxl-3">
+                <p class="hello-text">Good morning, [Jūsų vardas]</p>
+            </div>
+        </div>
+            <div class="workplace col-12 col-md-8 mr-md-4">
+            </div>
+        <div class="row">
+            <div class="bottom col-10 ml-2 col-sm-10 ml-sm-2 col-lg-8 col-xxl-8">
+                    <p class="text">“First, solve the problem. Then, write the code.” - John Johnson</p>
+            </div>
+        </div>
     </main>
-    <footer>
-        <span>© Baltic Institute of Technology</span>
-    </footer>
+    <div class="row">
+        <footer class="col-6 ml-1 col-sm-6 ml-sm-1 col-md-4 ml-md-1 col-lg-4 ml-lg-0">
+            <span>&copy; Baltic Institute of Technology</span>
+        </footer>
+    </div>
 </body>
 </html>

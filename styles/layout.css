@@ -66,6 +66,7 @@ nav > .first {
 }
 
 .first:hover {
+    position: absolute;
     top: 142px;
     padding: 16px 0px 16px 32px;
     background-color: white;
@@ -166,4 +167,59 @@ footer {
     font-size: 11px;
     border-top: 1px solid var(--secondary-color);
     padding: 11px 0;
+  }
+
+  .workplace {
+    background-image: url(../assets/workplace-results-professional-report-accounting-during\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 430px;
+  }
+
+  .hello-text {
+      padding: 22px;
+    width: 334px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .clock {
+    display: inline-block;
+    width: 516px;
+    height: 138px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    line-height: 44px;
+  }
+
+  .laikas {
+font-size: 36px;
+  }
+
+  .data {
+    padding: 22px 30px;
+font-size: 24px;
+  }
+
+  .bottom {
+    display: inline-block;
+    width: 898px;
+    height: 70px;
+    left: 200px;
+    border: 2px solid #02577A;
+    box-sizing: border-box;
+    border-radius: 25px;
+  }
+
+  .text {
+    padding: 16px 90px 0px 90px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
   }
