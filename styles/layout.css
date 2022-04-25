@@ -193,14 +193,15 @@ footer {
     background: #FFFFFF;
     border-radius: 25px;
     line-height: 44px;
-  }
-
-  .laikas {
     font-size: 36px;
   }
 
-  .data {
+.laikas {
     padding: 22px 30px;
+}
+
+  .data {
+    padding-left: 30px;
     font-size: 24px;
   }
 
