@@ -6,7 +6,7 @@ _Friday Challenge project_
 
 This project is for practice.
 
-Site published at: https://github.com/TomUrin/friday-challenge
+Site published at: https://tomurin.github.io/friday-challenge/
 
 ## Project features
 
