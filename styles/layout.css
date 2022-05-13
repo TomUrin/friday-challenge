@@ -157,7 +157,7 @@ nav:hover {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0px;
     width: 346px;
     left: 50%;
